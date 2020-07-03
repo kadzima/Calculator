@@ -1,0 +1,34 @@
+
+    .btn {
+        width: 60px;
+        height: 60px;
+        background: cyan;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        user-select: none;
+    }
+ 
+    .btn:hover {
+        background: greenyellow;
+        color: navy;
+    }
+ 
+    #calc-wrap {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        background: orangered; 
+    }
+ 
+    #calc {
+        width: 240px;
+        display: inline-block;
+    }
+ 
+    #inputVal {
+        width: 100%;
+        border: 0;
+        font-size: 16px;
+        resize: vertical;
+    }
